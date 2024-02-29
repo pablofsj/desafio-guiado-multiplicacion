@@ -1,5 +1,3 @@
-// let num = +prompt('Por favor ingresar un numero entre 1 y 20')
-
 const ejercicio = num => {
 
     
@@ -8,7 +6,7 @@ const ejercicio = num => {
         console.log ('numero fuera de rango')
         return
     } 
-    //imprimir multiplicacion
+    //calcular imprimir multiplicacion
     for(let i= 1 ; i<=num ; i++){
         console.log(`${i} x ${num} = ${i*num}`)    
     }
